@@ -1,0 +1,16 @@
+,Pepper__bell___Bacterial_spot,Pepper__bell___healthy,Potato___Early_blight,Potato___Late_blight,Potato___healthy,Tomato_Bacterial_spot,Tomato_Early_blight,Tomato_Late_blight,Tomato_Leaf_Mold,Tomato_Septoria_leaf_spot,Tomato_Spider_mites_Two_spotted_spider_mite,Tomato__Target_Spot,Tomato__Tomato_YellowLeaf__Curl_Virus,Tomato__Tomato_mosaic_virus,Tomato_healthy
+Pepper__bell___Bacterial_spot,143,3,0,0,0,0,0,1,1,1,0,0,0,0,0
+Pepper__bell___healthy,0,221,0,0,0,0,0,0,0,0,0,0,0,0,0
+Potato___Early_blight,1,0,147,2,0,0,0,0,0,0,0,0,0,0,0
+Potato___Late_blight,0,0,0,141,1,0,5,2,0,0,1,0,0,0,0
+Potato___healthy,0,0,0,2,21,0,0,0,0,0,0,0,0,0,0
+Tomato_Bacterial_spot,0,0,0,0,0,304,4,0,0,10,1,0,0,0,0
+Tomato_Early_blight,0,0,2,0,0,4,99,9,5,17,3,8,3,0,0
+Tomato_Late_blight,0,0,0,3,0,0,10,267,3,1,0,2,0,0,1
+Tomato_Leaf_Mold,0,0,0,0,0,3,2,3,125,6,3,1,0,0,0
+Tomato_Septoria_leaf_spot,1,0,0,0,0,8,6,0,4,239,3,3,0,0,2
+Tomato_Spider_mites_Two_spotted_spider_mite,0,0,0,0,0,1,0,0,0,0,237,12,2,0,0
+Tomato__Target_Spot,0,0,0,0,0,2,1,0,0,7,15,179,2,0,4
+Tomato__Tomato_YellowLeaf__Curl_Virus,0,0,0,0,0,8,0,0,0,0,3,0,471,0,0
+Tomato__Tomato_mosaic_virus,0,0,0,0,0,0,0,0,0,2,1,0,0,53,0
+Tomato_healthy,0,0,0,0,0,0,0,0,0,2,2,10,0,0,224

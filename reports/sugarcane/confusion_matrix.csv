@@ -1,0 +1,12 @@
+,Banded Chlorosis,Brown Spot,BrownRust,Dried,Grassy shoot,Healthy,Pokkah Boeng,Sett Rot,Smut,Viral Disease,Yellow Leaf
+Banded Chlorosis,50,4,9,0,0,0,0,0,0,3,5
+Brown Spot,0,245,5,0,0,0,1,0,0,4,4
+BrownRust,1,0,45,0,0,0,0,0,0,1,0
+Dried,0,1,0,45,0,0,0,0,3,0,2
+Grassy shoot,0,0,0,0,51,0,0,0,1,0,0
+Healthy,0,0,0,0,0,64,0,0,0,1,0
+Pokkah Boeng,0,0,0,0,0,0,32,0,12,0,0
+Sett Rot,0,0,0,0,0,0,0,98,0,0,0
+Smut,0,0,0,0,1,0,7,0,36,3,0
+Viral Disease,2,2,0,0,0,1,0,0,7,84,4
+Yellow Leaf,0,1,2,1,0,0,0,0,0,2,173

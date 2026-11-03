@@ -1,0 +1,29 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Notebook temporary files
+.ipynb_checkpoints/
+
+# Raw and processed training datasets
+data/raw/
+data/processed/
+
+# Temporary files
+.DS_Store
+
+# Dataset archives
+*.zip
+
+# Raw training data
+data/raw/
+data/processed/

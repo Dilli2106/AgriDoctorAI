@@ -1,0 +1,106 @@
+{
+    "project_name": "AgriDoctor AI",
+    "languages": [
+        "English",
+        "Tamil"
+    ],
+    "target_users": [
+        "Farmers"
+    ],
+    "input_size": [
+        224,
+        224
+    ],
+    "models": {
+        "plantvillage": {
+            "model_path": "models/plantvillage/best_model.keras",
+            "crop_name_en": "Tomato, Potato and Pepper",
+            "crop_name_ta": "தக்காளி, உருளைக்கிழங்கு மற்றும் குடைமிளகாய்",
+            "num_classes": 15,
+            "class_names": [
+                "Pepper__bell___Bacterial_spot",
+                "Pepper__bell___healthy",
+                "Potato___Early_blight",
+                "Potato___Late_blight",
+                "Potato___healthy",
+                "Tomato_Bacterial_spot",
+                "Tomato_Early_blight",
+                "Tomato_Late_blight",
+                "Tomato_Leaf_Mold",
+                "Tomato_Septoria_leaf_spot",
+                "Tomato_Spider_mites_Two_spotted_spider_mite",
+                "Tomato__Target_Spot",
+                "Tomato__Tomato_YellowLeaf__Curl_Virus",
+                "Tomato__Tomato_mosaic_virus",
+                "Tomato_healthy"
+            ],
+            "label_mapping": {
+                "Pepper__bell___Bacterial_spot": 0,
+                "Pepper__bell___healthy": 1,
+                "Potato___Early_blight": 2,
+                "Potato___Late_blight": 3,
+                "Potato___healthy": 4,
+                "Tomato_Bacterial_spot": 5,
+                "Tomato_Early_blight": 6,
+                "Tomato_Late_blight": 7,
+                "Tomato_Leaf_Mold": 8,
+                "Tomato_Septoria_leaf_spot": 9,
+                "Tomato_Spider_mites_Two_spotted_spider_mite": 10,
+                "Tomato__Target_Spot": 11,
+                "Tomato__Tomato_YellowLeaf__Curl_Virus": 12,
+                "Tomato__Tomato_mosaic_virus": 13,
+                "Tomato_healthy": 14
+            }
+        },
+        "rice": {
+            "model_path": "models/rice/best_rice_model.keras",
+            "crop_name_en": "Rice",
+            "crop_name_ta": "நெல்",
+            "num_classes": 4,
+            "class_names": [
+                "Bacterialblight",
+                "Blast",
+                "Brownspot",
+                "Tungro"
+            ],
+            "label_mapping": {
+                "Bacterialblight": 0,
+                "Blast": 1,
+                "Brownspot": 2,
+                "Tungro": 3
+            }
+        },
+        "sugarcane": {
+            "model_path": "models/sugarcane/best_sugarcane_model.keras",
+            "crop_name_en": "Sugarcane",
+            "crop_name_ta": "கரும்பு",
+            "num_classes": 11,
+            "class_names": [
+                "Banded Chlorosis",
+                "Brown Spot",
+                "BrownRust",
+                "Dried",
+                "Grassy shoot",
+                "Healthy",
+                "Pokkah Boeng",
+                "Sett Rot",
+                "Smut",
+                "Viral Disease",
+                "Yellow Leaf"
+            ],
+            "label_mapping": {
+                "Banded Chlorosis": 0,
+                "Brown Spot": 1,
+                "BrownRust": 2,
+                "Dried": 3,
+                "Grassy shoot": 4,
+                "Healthy": 5,
+                "Pokkah Boeng": 6,
+                "Sett Rot": 7,
+                "Smut": 8,
+                "Viral Disease": 9,
+                "Yellow Leaf": 10
+            }
+        }
+    }
+}
