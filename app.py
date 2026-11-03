@@ -409,22 +409,16 @@ with st.sidebar:
 # 10. HERO SECTION
 # ==========================================
 
-st.markdown("""
-<div class="hero">
+st.markdown("")
 
-    <div class="eyebrow">
-        INTELLIGENT AGRICULTURE • AI POWERED
-    </div>
+with st.container():
+    st.markdown("### 🌱 AgriDoctor AI")
+    st.caption("INTELLIGENT AGRICULTURE • AI POWERED")
+    st.write(
+        "Your intelligent companion for plant disease diagnosis "
+        "and smarter farming decisions."
+    )
 
-    <h1>🌱 AgriDoctor AI</h1>
-
-    <p>
-        Your intelligent companion for plant disease diagnosis
-        and smarter farming decisions.
-    </p>
-
-</div>
-""", unsafe_allow_html=True)
 
 st.markdown(
     f'<div class="section-title">{t["upload"]}</div>',
@@ -605,23 +599,11 @@ if uploaded_file is not None:
 
 st.divider()
 
-st.markdown("""
-<div style="
-    text-align:center;
-    padding:20px;
-    color:#66816c;
-">
 
-    <h3 style="color:#176b45;">🌱 AgriDoctor AI</h3>
-
-    <p>
-        Smart Plant Diagnosis • Bilingual Farming Guidance
-    </p>
-
-    <small>
-        AI-assisted information. Always confirm important
-        crop-management decisions with qualified local experts.
-    </small>
-
-</div>
-""", unsafe_allow_html=True)
+with st.container():
+    st.markdown("### 🌱 AgriDoctor AI")
+    st.write("Smart Plant Diagnosis • Bilingual Farming Guidance")
+    st.caption(
+        "AI-assisted information. Always confirm important "
+        "crop-management decisions with qualified local experts."
+    )
